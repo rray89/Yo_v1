@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        EditText inside FrameLayout
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        >
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Your name" />
+
+
+    </FrameLayout>
+
+    <!--
+        Button YO
+    -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_1"
+        android:text="YO"
+        android:textColor="@android:color/white"
+        android:padding="24dp"
+        android:textSize="32sp"
+        android:background="#1ABC9C"
+        />
+
+    <!--
+        Button MO
+    -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_2"
+        android:text="MO"
+        android:textColor="@android:color/white"
+        android:padding="24dp"
+        android:textSize="32sp"
+        android:background="#3498DB"
+        />
+
+    <!--
+        Button YO YO
+    -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_3"
+        android:text="YO YO"
+        android:textColor="@android:color/white"
+        android:padding="24dp"
+        android:textSize="32sp"
+        android:background="#34495E"
+        />
+
+    <!--
+        Button YO
+    -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_4"
+        android:text="OR"
+        android:textColor="@android:color/white"
+        android:padding="24dp"
+        android:textSize="32sp"
+        android:background="#16A085"
+        />
+
+</LinearLayout>
